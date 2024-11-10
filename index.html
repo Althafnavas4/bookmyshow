@@ -14,7 +14,7 @@
         <div class=" container-fluid">
             <form class="d-flex justify-content-center" role="search" style="width: 600px;">
                 <img id="logo"  src="media/logo.png" alt=""height="50px"></a>
-                <i id="slogo"  class="  fa-solid fa-magnifying-glass" aria-hidden="false"></i>
+               
                 <input id="search"  class="form-control me-2" type="search" placeholder="     Search for Movies,Events,Plays,Sports and Activities" aria-label="Search">
             </form>
             <div id="kochi" class="dropdown ">            
@@ -156,6 +156,12 @@
             </div>
         </div>
     </nav>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" style="width: 10px; height: 10px; border-radius: 50%; background-color: #c5c1c1; border: none;"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1" style="width: 10px; height: 10px; border-radius: 50%; background-color: #f4eded; border: none;"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2" style="width: 10px; height: 10px; border-radius: 50%; background-color: #d9d6d6; border: none;"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="media/slide.avif" alt="" class="d-block" style="width:100%">
@@ -167,9 +173,15 @@
             <img src="media/slide2.avif" alt="" class="d-block" style="width:100%">
           </div>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
     </div>
-    <div class="sample container p-5">
-        <div class="d-flex justify-content-between align-items-center mb-1">
+    <div>
+        <div class="d-flex justify-content-between align-items-center mb-1 rec">
             <h3  class="mb-0"><b>Recommended Movies</b></h3>
             <a href="#"  class="text-danger text-decoration-none ms-2">28.5K reviews ></a>
         </div>
@@ -180,63 +192,127 @@
                         <div class="col-md-2">
                             <a class="text-decoration-none text-black" href="movie.html">
                                 <div class="movie-card">
-                                    <img src="./media/pallotty-90s-kids-et00416864-1729513636.avif" class="img-fluid">
-                                </div> 
+                                    <img src="media/rec1.avif" class="img-fluid">
+                                </div>
                                 <div class="movie-details ">
-                                    <h5 class="movie-title">Pallotty 90s Kids</h5>
-                                    <p class="movie-genre">Drama</p>
+                                    <h5 class="movie-title">Bougainvillea</h5>
+                                    <p class="movie-genre">Crime/Thriller</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-2">
                             <a class="text-decoration-none text-black" href="movie.html">
                                 <div class="movie-card">
-                                    <img src="./media/thrayam-et00416221-1729063706.avif" alt="Kishkindha Kaandam" class="img-fluid">
+                                    <img src="media/rec2.avif" alt="Kishkindha Kaandam" class="img-fluid">
                                 </div>
                                 <div class="movie-details">
-                                    <h5 class="movie-title">Thrayam</h5>
-                                    <p class="movie-genre">Action,Crime,Thriller</p>
+                                    <h5 class="movie-title">Vettaiyan</h5>
+                                    <p class="movie-genre">Action/Drama</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-2">
                             <a class="text-decoration-none text-black" href="movie.html">
                                 <div class="movie-card">
-                                    <img src="media/rec7.avif" alt="Kishkindha Kaandam" class="img-fluid">    
+                                    <img src="media/rec3.avif" alt="Kishkindha Kaandam" class="img-fluid">    
                                 </div>
                                 <div class="movie-details ">
-                                    <h5 class="movie-title">Porattu Nadakam</h5>
-                                    <p class="movie-genre">Comedy/Drama</p>
+                                    <h5 class="movie-title">A.R.M</h5>
+                                    <p class="movie-genre">Action/Adventure/Drama/Period</p>
                                 </div>  
                             </a>
                         </div>
                         <div class="col-md-2">
-                            <a class="text-decoration-none text-black" href="movie.html">
+                            <a class="text-decoration-none text-black" href="./Lucky Baskhar.html">
                                 <div class="movie-card">
-                                    <img src="./media/pani-et00404167-1720515291.avif" alt="Thekku Vadakku" class="img-fluid">
+                                    <img src="https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-image,i-discovery-catalog@@icons@@star-icon-202203010609.png,lx-24,ly-615,w-29,l-end:l-text,ie-OS40LzEwICA2NC41SyBWb3Rlcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-70,pa-8_0_0_0,l-end/et00386123-tasxvalcdv-portrait.jpg" alt="Thekku Vadakku" class="img-fluid">
                                 </div>
                                 <div class="movie-details">
-                                    <h5 class="movie-title">Pani</h5>
-                                    <p class="movie-genre">Action,Crime,Drama
-                                        </p>
+                                    <h5 class="movie-title">Lucky Baskhar</h5>
+                                    <p class="movie-genre">Crime,Drama,Thriller</p>
                                 </div>
                             </a>
                         </div>
                         <div class="col-md-2">
                             <a class="text-decoration-none text-black" href="movie.html">
                                 <div class="movie-card">
-                                    <img src="./media/lucky-baskhar-et00386123-1707118235.avif" alt="Pushpaka Vimanam" class="img-fluid">
+                                    <img src="media/rec5.avif" alt="Pushpaka Vimanam" class="img-fluid">
                                 </div>
                                 <div class="movie-details">
-                                    <h5 class="movie-title">Lucky Baskhar</h5>
-                                    <p class="movie-genre">Crime,Drama,Thriller
-                                        </p>
+                                    <h5 class="movie-title">Venom: The Last Dance</h5>
+                                    <p class="movie-genre">Action/Adventure/Sci-fi</p>
                                 </div>
                             </a>
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-2">
+                            <a class="text-decoration-none text-black" href="2ndpage.html">
+                                <div class="movie-card">
+                                    <img src="media/rec6.avif" class="img-fluid">
+                                </div>
+                                <div class="movie-details ">
+                                    <h5 class="movie-title">Kishkindha Kaandam</h5>
+                                    <p class="movie-genre">Mistory/Thriller</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="text-decoration-none text-black" href="2ndpage.html">
+                                <div class="movie-card">
+                                    <img src="media/rec7.avif" alt="Kishkindha Kaandam" class="img-fluid">
+                                </div>
+                                <div class="movie-details">
+                                    <h5 class="movie-title">Porattu Nadakam</h5>
+                                    <p class="movie-genre">Comedy/Drama</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <a class="text-decoration-none text-black" href="2ndpage.html">
+                                <div class="movie-card">
+                                    <img src="media/rec8.avif" alt="Kishkindha Kaandam" class="img-fluid">    
+                                </div>
+                                <div class="movie-details ">
+                                    <h5 class="movie-title">Smile 2</h5>
+                                    <p class="movie-genre">Horror/Mystery/Thriller</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="movie-card">
+                                <img src="media/rec9.avif" alt="Thekku Vadakku" class="img-fluid">
+                            </div>
+                            <div class="movie-details">
+                                <h5 class="movie-title">Sattam En Kayil</h5>
+                                <p class="movie-genre">Crime/Drama/Thriller</p>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-2">
+                            <div class="movie-card">
+                                <img src="media/rec10.avif" alt="Pushpaka Vimanam" class="img-fluid">
+                            </div>
+                            <div class="movie-details">
+                                <h5 class="movie-title">Jigra</h5>
+                                <p class="movie-genre">Action/Drama/Thriller</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button style="background-color: #5c5e5c; border-radius: 50%; width: 25px; height: 25px; position: absolute; top: 30%;" class="carousel-control-prev " type="button1" data-bs-target="#demo2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button style="background-color: #747774; border-radius: 50%; width: 25px; height: 25px; position: absolute; top: 30%; right: 0px;" class="carousel-control-next" type="button1" data-bs-target="#demo2" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
     <div class="container container-fluid my-4">
         <img class="img-fluid" src="media/stream.png" alt="">
     </div>
@@ -318,196 +394,187 @@
     </div>
     <footer style="overflow-y: hidden;" class="footer py-5 d-none d-md-block">
         <div class="container-fluid">
-        <div class="row justify-content-center text-center text-md-start">
-            <div class="col-md-10">
-            <p class="text-white">
-                <a href="#" class=" footer-logo text-white fw-bold text-decoration-none"><img src="media/icon1.png" alt="">List your Show &nbsp; &nbsp;</a> 
-                Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow 
-                <a id="contact"  href="#" class="btn btn-danger ">Contact today! </a>
-            </p>
+            <div class="row justify-content-center text-center text-md-start">
+                <div class="col-md-10">
+                    <p class="text-white">
+                        <a href="#" class=" footer-logo text-white fw-bold text-decoration-none"><img src="media/icon1.png" alt="">List your Show &nbsp; &nbsp;</a> 
+                        Got a show, event, activity or a great experience? Partner with us & get listed on BookMyShow 
+                        <a id="contact"  href="#" class="btn btn-danger ">Contact today! </a>
+                    </p>
+                </div>
             </div>
-    
+        </div>
     <div id="row" class="row justify-content-center">
         <div class="icon-box col-12 col-md-4 col-lg-3 mb-3 text-center ">
-        <i style="font-size: 70px;" class="fa-regular fa-user my-3"></i>
-        <p class="">24/7 Customer Care</p>
+            <i style="font-size: 70px;" class="fa-regular fa-user my-3"></i>
+            <p class="">24/7 Customer Care</p>
         </div>
         <div class="icon-box col-12 col-md-4 col-lg-3 mb-3 text-center">
-        <i style="font-size: 70px;" class="fa-solid fa-ticket my-3"></i>
-        <p >Resend Booking Confirmation</p>
+            <i style="font-size: 70px;" class="fa-solid fa-ticket my-3"></i>
+            <p >Resend Booking Confirmation</p>
         </div>
         <div class="icon-box col-12 col-md-4 col-lg-3 mb-3 text-center">
-        <i style="font-size: 70px;" class="fa-regular fa-envelope my-3"></i>
-        <p >Subscribe to the Newsletter</p>
+            <i style="font-size: 70px;" class="fa-regular fa-envelope my-3"></i>
+            <p >Subscribe to the Newsletter</p>
         </div>
-    </div>
     </div>
     <!-- ------------------------------------ -->
-    <div class="container mt-5">
-    <h4 id="heading">MOVIES NOW SHOWING IN KOCHI</h4>
-    <p class="para"><a id="text1" href="">vettaiyan</a> |
-    <a id="text1" href="">A.R.M</a> |
-    <a id="text1" href="">Kishkindha Kaandam</a> |
-    <a id="text1" href="">Venom: The Last Dance</a> |
-    <a id="text1" href="">Jocker: Folie a Deux</a> |
-    <a id="text1" href="">Thekku Vadakku</a> |
-    <a id="text1" href="">Pushpaka Vimanam</a> |
-    <a id="text1" href="">Maliyaxhagan</a> |
-    <a id="text1" href="">Oru Kattil oru muri</a> |
-    </p>
+    <div class="movie_link">
+        <h4 id="heading">MOVIES NOW SHOWING IN KOCHI</h4>
+        <p class="para">
+            <a id="text1" href="">Pani</a> |
+            <a id="text1" href="">Bougainvillea</a> |
+            <a id="text1" href="">Venom: The Last Dance</a> |
+            <a id="text1" href="">Kishkindha Kaandam</a> |
+            <a id="text1" href="">Thrayam</a> |
+            <a id="text1" href="">A.R.M</a> |
+            <a id="text1" href="">Pallotty 90s Kids</a> |
+            <a id="text1" href="">Porattu Nadakam</a> |
+            <a id="text1" href="">Vettaiyan</a> 
+        </p>
+        <h4 id="heading">UPCOMING MOVIES IN KOCHI</h4>
+        <p class="para">
+            <a id="text1" href="">Amaran</a> |
+            <a id="text1" href="">Zebra</a> |
+            <a id="text1" href="">Brother</a> |
+            <a id="text1" href="">Athiparvam</a> |
+            <a id="text1" href="">KA(2024)</a> |
+            <a id="text1" href="">Bloody Beggar</a> |
+            <a id="text1" href="">Bagheera</a> |
+            <a id="text1" href="">Ugravartha</a> |
+            <a id="text1" href="">Bagh Romeo Bagh</a> |
+            <a id="text1" href="">Oshana</a> 
+        </p>
+        <h4 id="heading">MOVIES BY GENRE</h4>
+        <p class="para">
+            <a id="text1" href="">Drama Movies</a> |
+            <a id="text1" href="">Action Movies</a> |
+            <a id="text1" href="">Thriller Movies</a> |
+            <a id="text1" href="">Period Movies</a> |
+            <a id="text1" href="">Horror Movies</a> |
+            <a id="text1" href="">Fantasy Movies</a> |
+            <a id="text1" href="">Suspense Movies</a> |
+            <a id="text1" href="">Romantic Movies</a> |
+            <a id="text1" href="">Comady Movies</a> 
+        </p>
+        <h4 id="heading">MOVIES BY LANGUAGE</h4>
+        <p class="para">
+            <a id="text1" href="">Movies in English</a> |
+            <a id="text1" href="">Movies in Malayalam</a> |
+            <a id="text1" href="">Movies in Tamil</a> |
+            <a id="text1" href="">Movies in Kannada</a> |
+            <a id="text1" href="">Movies in telugu</a> |
+            <a id="text1" href="">Movies in Hindi</a> |
+            <a id="text1" href="">Movies in sindihi</a> |
+            <a id="text1" href="">Movies in bengali</a> |
+            <a id="text1" href="">Movies in marathi</a> 
+        </p>
+        <h4 id="heading">SPORTS EVENTS IN KOCHI</h4>
+        <p class="para">
+            <a href="" id="text1">Running</a> |
+            <a href="" id="text1">Kabaddi</a> |
+            <a href="" id="text1">Athletics</a> |
+            <a href="" id="text1">Motorsports</a> |
+            <a href="" id="text1">Card Games</a> |
+            <a href="" id="text1">Hockey</a> |
+            <a href="" id="text1">Rugby</a> |
+            <a href="" id="text1">Badminton</a> |
+            <a href="" id="text1">Boxing</a> |
+            <a href="" id="text1">Pool</a>
+        </p>
+        <h4 id="heading">EVENTS IN TOP CITIES</h4>
+        <p class="para">
+            <a href="" id="text1">Events in Mumbai</a> |
+            <a href="" id="text1">Events in Delhi-NCR</a> |
+            <a href="" id="text1">Events in Bengaluru</a> |
+            <a href="" id="text1">Events in Hyderabad</a> |
+            <a href="" id="text1">Events in Pune</a> |
+            <a href="" id="text1">Events in Ahmedabad</a> |
+            <a href="" id="text1">Events in Kolkata</a> |
+            <a href="" id="text1">Events in Kochi</a>
+        </p>
+        <h4 id="heading">CINEMAS IN TOP CITIES</h4>
+        <p class="para">
+            <a href="" id="text1">Cinemas in Mumbai</a> |
+            <a href="" id="text1">Cinemas in Delhi-NCR</a> |
+            <a href="" id="text1">Cinemas in Chennai</a> |
+            <a href="" id="text1">Cinemas in Bengaluru</a> |
+            <a href="" id="text1">Cinemas in Hyderabad</a> |
+            <a href="" id="text1">Cinemas in Pune</a> |
+            <a href="" id="text1">Cinemas in Ahmedabad</a> |
+            <a href="" id="text1">Cinemas in Kolkata</a> |
+            <a href="" id="text1">Cinemas in Kochi</a>
+        </p>
+        <h4 id="heading">PLAYS IN TOP CITIES</h4>
+        <p class="para">
+            <a href="" id="text1">Plays in Mumbai</a> |
+            <a href="" id="text1">Plays in Delhi-NCR</a> |
+            <a href="" id="text1">Plays in Chennai</a> |
+            <a href="" id="text1">Plays in Bengaluru</a> |
+            <a href="" id="text1">Plays in Hyderabad</a> |
+            <a href="" id="text1">Plays in Pune</a> |
+            <a href="" id="text1">Plays in Kolkata</a> |
+            <a href="" id="text1">Plays in Kochi</a>
+        </p>
+        <h4 id="heading">ACTIVITIES IN TOP CITIES</h4>
+        <p class="para">
+            <a href="" id="text1">Activities in Mumbai</a> |
+            <a href="" id="text1">Activities in Delhi-NCR</a> |
+            <a href="" id="text1">Activities in Chennai</a> |
+            <a href="" id="text1">Activities in Bengaluru</a> |
+            <a href="" id="text1">Activities in Hyderabad</a> |
+            <a href="" id="text1">Activities in Pune</a> |
+            <a href="" id="text1">Activities in Ahmedabad</a> |
+            <a href="" id="text1">Activities in Kolkata</a> |
+            <a href="" id="text1">Activities in Kochi</a>
+        </p>
+        <h4 id="heading">MOVIES NOW SHOWING</h4>
+        <p class="para">
+            <a href="" id="text1">Venom: The Last Dance</a> |
+            <a href="" id="text1">Vicky Vidya ka Woh Wala Video</a> |
+            <a href="" id="text1">Hahacr</a> |
+            <a href="" id="text1">Jigra</a> |
+            <a href="" id="text1">Banda Singh Chaudhary</a> |
+            <a href="" id="text1">Vettayian</a> |
+            <a href="" id="text1">Amaran</a> |
+            <a href="" id="text1">Bohurupi</a> |
+            <a href="" id="text1">Bhool Bhulaiyaa 3</a> |
+            <a href="" id="text1">Devara - Part 1</a>
+        </p>
+        <h4 id="heading">COUNTRIES</h4>
+        <p class="para">
+            <a href="" id="text1">Indonesia</a> |
+            <a href="" id="text1">Singapore</a> |
+            <a href="" id="text1">UAE</a> |
+            <a href="" id="text1">Sri Lanka</a> |
+            <a href="" id="text1">West Indies</a>
+        </p>
+        <h4 id="heading">HELP</h4>
+        <p class="para">
+            <a href="" id="text1">About Us</a> |
+            <a href="" id="text1">Contact Us</a> |
+            <a href="" id="text1">Current Opening</a> |
+            <a href="" id="text1">Press Release</a> |
+            <a href="" id="text1">Press Coverage</a> |
+            <a href="" id="text1">Sitemap</a> |
+            <a href="" id="text1">FAQs</a> |
+            <a href="" id="text1">Terms and Conditions</a> |
+            <a href="" id="text1">Privacy Policy</a>
+        </p>
+        <h4 id="heading">BOOKMYSHOW EXCLUSIVES</h4>
+        <p class="para">
+            <a href="" id="text1">Lollapalooza India</a> |
+            <a href="" id="text1">Superstar</a> |
+            <a href="" id="text1">BookAChange</a> |
+            <a href="" id="text1">Corporate Vouchers</a> |
+            <a href="" id="text1">Gift Cards</a> |
+            <a href="" id="text1">List My Show</a> |
+            <a href="" id="text1">Offers</a> |
+            <a href="" id="text1">Stream</a> |
+            <a href="" id="text1">Trailers</a>
+        </p>
     </div>
-    <div class="container mt-5">
-    <h4 id="heading">MOVIES NOW SHOWING IN KOCHI</h4>
-    <p class="para"><a id="text1" href="">vettaiyan</a> |
-    <a id="text1" href="">A.R.M</a> |
-    <a id="text1" href="">Kishkindha Kaandam</a> |
-    <a id="text1" href="">Venom: The Last Dance</a> |
-    <a id="text1" href="">Jocker: Folie a Deux</a> |
-    <a id="text1" href="">Thekku Vadakku</a> |
-    <a id="text1" href="">Pushpaka Vimanam</a> |
-    <a id="text1" href="">Maliyaxhagan</a> |
-    <a id="text1" href="">Oru Kattil oru muri</a> |
-    </p>
-    </div>
-    <div class="container mt-5">
-    <h4 id="heading">MOVIES BY GENRE</h4>
-    <p class="para"><a id="text1" href="">Drama Movies</a> |
-    <a id="text1" href="">Action Movies</a> |
-    <a id="text1" href="">Thriller Movies</a> |
-    <a id="text1" href="">Period Movies</a> |
-    <a id="text1" href="">Horror Movies</a> |
-    <a id="text1" href="">Fantasy Movies</a> |
-    <a id="text1" href="">Suspense Movies</a> |
-    <a id="text1" href="">Romantic Movies</a> |
-    <a id="text1" href="">Comady Movies</a> |
-    </p>
-    </div>
-    <div class="container mt-5">
-    <h4 id="heading">MOVIES BY LANGUAGE</h4>
-    <p class="para"><a id="text1" href="">Movies in English</a> |
-    <a id="text1" href="">Movies in Malayalam</a> |
-    <a id="text1" href="">Movies in Tamil</a> |
-    <a id="text1" href="">Movies in Kannada</a> |
-    <a id="text1" href="">Movies in telugu</a> |
-    <a id="text1" href="">Movies in Hindi</a> |
-    <a id="text1" href="">Movies in sindihi</a> |
-    <a id="text1" href="">Movies in bengali</a> |
-    <a id="text1" href="">Movies in marathi</a> |
-    </p>
-    </div>
-    <div class="container mt-5">
-    <h4 id="heading">SPORTS EVENTS IN KOCHI</h4>
-    <p class="para">
-        <a href="" id="text1">Running</a> |
-        <a href="" id="text1">Kabaddi</a> |
-        <a href="" id="text1">Athletics</a> |
-        <a href="" id="text1">Motorsports</a> |
-        <a href="" id="text1">Card Games</a> |
-        <a href="" id="text1">Hockey</a> |
-        <a href="" id="text1">Rugby</a> |
-        <a href="" id="text1">Badminton</a> |
-        <a href="" id="text1">Boxing</a> |
-        <a href="" id="text1">Pool</a>
-    </p>
-
-    <h4 id="heading">EVENTS IN TOP CITIES</h4>
-    <p class="para">
-        <a href="" id="text1">Events in Mumbai</a> |
-        <a href="" id="text1">Events in Delhi-NCR</a> |
-        <a href="" id="text1">Events in Bengaluru</a> |
-        <a href="" id="text1">Events in Hyderabad</a> |
-        <a href="" id="text1">Events in Pune</a> |
-        <a href="" id="text1">Events in Ahmedabad</a> |
-        <a href="" id="text1">Events in Kolkata</a> |
-        <a href="" id="text1">Events in Kochi</a>
-    </p>
-
-    <h4 id="heading">CINEMAS IN TOP CITIES</h4>
-    <p class="para">
-        <a href="" id="text1">Cinemas in Mumbai</a> |
-        <a href="" id="text1">Cinemas in Delhi-NCR</a> |
-        <a href="" id="text1">Cinemas in Chennai</a> |
-        <a href="" id="text1">Cinemas in Bengaluru</a> |
-        <a href="" id="text1">Cinemas in Hyderabad</a> |
-        <a href="" id="text1">Cinemas in Pune</a> |
-        <a href="" id="text1">Cinemas in Ahmedabad</a> |
-        <a href="" id="text1">Cinemas in Kolkata</a> |
-        <a href="" id="text1">Cinemas in Kochi</a>
-    </p>
-
-    <h4 id="heading">PLAYS IN TOP CITIES</h4>
-    <p class="para">
-        <a href="" id="text1">Plays in Mumbai</a> |
-        <a href="" id="text1">Plays in Delhi-NCR</a> |
-        <a href="" id="text1">Plays in Chennai</a> |
-        <a href="" id="text1">Plays in Bengaluru</a> |
-        <a href="" id="text1">Plays in Hyderabad</a> |
-        <a href="" id="text1">Plays in Pune</a> |
-        <a href="" id="text1">Plays in Kolkata</a> |
-        <a href="" id="text1">Plays in Kochi</a>
-    </p>
-
-    <h4 id="heading">ACTIVITIES IN TOP CITIES</h4>
-    <p class="para">
-        <a href="" id="text1">Activities in Mumbai</a> |
-        <a href="" id="text1">Activities in Delhi-NCR</a> |
-        <a href="" id="text1">Activities in Chennai</a> |
-        <a href="" id="text1">Activities in Bengaluru</a> |
-        <a href="" id="text1">Activities in Hyderabad</a> |
-        <a href="" id="text1">Activities in Pune</a> |
-        <a href="" id="text1">Activities in Ahmedabad</a> |
-        <a href="" id="text1">Activities in Kolkata</a> |
-        <a href="" id="text1">Activities in Kochi</a>
-    </p>
-
-    <h4 id="heading">MOVIES NOW SHOWING</h4>
-    <p class="para">
-        <a href="" id="text1">Vettaiyan</a> |
-        <a href="" id="text1">Vicky Vidya ka Woh Wala Video</a> |
-        <a href="" id="text1">Jigra</a> |
-        <a href="" id="text1">Martin</a> |
-        <a href="" id="text1">Vettaiyan - The Hunter</a> |
-        <a href="" id="text1">Devara - Part 1</a> |
-        <a href="" id="text1">Viswam</a> |
-        <a href="" id="text1">The House of Dead Horror</a> |
-        <a href="" id="text1">Wild Roller Coaster</a> |
-        <a href="" id="text1">Bohurupi</a>
-    </p>
-
-    <h4 id="heading">COUNTRIES</h4>
-    <p class="para">
-        <a href="" id="text1">Indonesia</a> |
-        <a href="" id="text1">Singapore</a> |
-        <a href="" id="text1">UAE</a> |
-        <a href="" id="text1">Sri Lanka</a> |
-        <a href="" id="text1">West Indies</a>
-    </p>
-
-    <h4 id="heading">HELP</h4>
-    <p class="para">
-        <a href="" id="text1">About Us</a> |
-        <a href="" id="text1">Contact Us</a> |
-        <a href="" id="text1">Current Opening</a> |
-        <a href="" id="text1">Press Release</a> |
-        <a href="" id="text1">Press Coverage</a> |
-        <a href="" id="text1">Sitemap</a> |
-        <a href="" id="text1">FAQs</a> |
-        <a href="" id="text1">Terms and Conditions</a> |
-        <a href="" id="text1">Privacy Policy</a>
-    </p>
-
-    <h4 id="heading">BOOKMYSHOW EXCLUSIVES</h4>
-    <p class="para">
-        <a href="" id="text1">Lollapalooza India</a> |
-        <a href="" id="text1">Superstar</a> |
-        <a href="" id="text1">BookAChange</a> |
-        <a href="" id="text1">Corporate Vouchers</a> |
-        <a href="" id="text1">Gift Cards</a> |
-        <a href="" id="text1">List My Show</a> |
-        <a href="" id="text1">Offers</a> |
-        <a href="" id="text1">Stream</a> |
-        <a href="" id="text1">Trailers</a>
-    </p>
+    
     </div>
     <div class="line mt-5">
     <hr class="left-line">
